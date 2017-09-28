@@ -1,0 +1,15 @@
+c:\Users\cordillera\documents\visual studio 2013\Projects\Tesis\CapaDato\bin\Debug\CapaDato.dll
+c:\Users\cordillera\documents\visual studio 2013\Projects\Tesis\CapaDato\bin\Debug\CapaDato.pdb
+c:\Users\cordillera\documents\visual studio 2013\Projects\Tesis\CapaDato\obj\Debug\CapaDato.dll
+c:\Users\cordillera\documents\visual studio 2013\Projects\Tesis\CapaDato\obj\Debug\CapaDato.pdb
+C:\Users\Cordillera\documents\visual studio 2013\Projects\Tesis\CapaDato\obj\Debug\CapaDato.csprojResolveAssemblyReference.cache
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\CapaDato\bin\Debug\CapaDato.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\CapaDato\bin\Debug\CapaDato.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\CapaDato\obj\Debug\CapaDato.csprojResolveAssemblyReference.cache
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\CapaDato\obj\Debug\CapaDato.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\CapaDato\obj\Debug\CapaDato.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaDato\obj\Debug\CapaDato.csprojResolveAssemblyReference.cache
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaDato\obj\Debug\CapaDato.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaDato\obj\Debug\CapaDato.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaDato\bin\Debug\CapaDato.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaDato\bin\Debug\CapaDato.pdb

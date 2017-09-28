@@ -1,0 +1,21 @@
+c:\Users\cordillera\documents\visual studio 2013\Projects\Tesis\CapaLogica\bin\Debug\CapaLogica.dll
+c:\Users\cordillera\documents\visual studio 2013\Projects\Tesis\CapaLogica\bin\Debug\CapaLogica.pdb
+c:\Users\cordillera\documents\visual studio 2013\Projects\Tesis\CapaLogica\bin\Debug\CapaDato.dll
+c:\Users\cordillera\documents\visual studio 2013\Projects\Tesis\CapaLogica\bin\Debug\CapaDato.pdb
+c:\Users\cordillera\documents\visual studio 2013\Projects\Tesis\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
+c:\Users\cordillera\documents\visual studio 2013\Projects\Tesis\CapaLogica\obj\Debug\CapaLogica.dll
+c:\Users\cordillera\documents\visual studio 2013\Projects\Tesis\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\CapaLogica\bin\Debug\CapaDato.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\CapaLogica\bin\Debug\CapaDato.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaLogica\bin\Debug\CapaDato.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaLogica\bin\Debug\CapaDato.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaLogica\obj\Debug\CapaLogica.pdb

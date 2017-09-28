@@ -1,0 +1,45 @@
+c:\users\cordillera\documents\visual studio 2013\Projects\Tesis\Tesis\bin\Debug\Tesis.exe.config
+c:\users\cordillera\documents\visual studio 2013\Projects\Tesis\Tesis\bin\Debug\Tesis.exe
+c:\users\cordillera\documents\visual studio 2013\Projects\Tesis\Tesis\bin\Debug\Tesis.pdb
+c:\users\cordillera\documents\visual studio 2013\Projects\Tesis\Tesis\bin\Debug\CapaPresentacion.dll
+c:\users\cordillera\documents\visual studio 2013\Projects\Tesis\Tesis\bin\Debug\CapaPresentacion.pdb
+c:\users\cordillera\documents\visual studio 2013\Projects\Tesis\Tesis\obj\Debug\Tesis.csprojResolveAssemblyReference.cache
+c:\users\cordillera\documents\visual studio 2013\Projects\Tesis\Tesis\obj\Debug\Tesis.Properties.Resources.resources
+c:\users\cordillera\documents\visual studio 2013\Projects\Tesis\Tesis\obj\Debug\Tesis.csproj.GenerateResource.Cache
+c:\users\cordillera\documents\visual studio 2013\Projects\Tesis\Tesis\obj\Debug\Tesis.exe
+c:\users\cordillera\documents\visual studio 2013\Projects\Tesis\Tesis\obj\Debug\Tesis.pdb
+C:\Users\Cordillera\documents\visual studio 2013\Projects\Tesis\Tesis\bin\Debug\CapaLogica.dll
+C:\Users\Cordillera\documents\visual studio 2013\Projects\Tesis\Tesis\bin\Debug\CapaDato.dll
+C:\Users\Cordillera\documents\visual studio 2013\Projects\Tesis\Tesis\bin\Debug\CapaLogica.pdb
+C:\Users\Cordillera\documents\visual studio 2013\Projects\Tesis\Tesis\bin\Debug\CapaDato.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\Tesis\bin\Debug\Tesis.exe.config
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\Tesis\obj\Debug\Tesis.exe
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\Tesis\obj\Debug\Tesis.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\Tesis\bin\Debug\Tesis.exe
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\Tesis\bin\Debug\Tesis.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\Tesis\bin\Debug\CapaPresentacion.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\Tesis\bin\Debug\CapaLogica.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\Tesis\bin\Debug\CapaDato.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\Tesis\bin\Debug\CapaPresentacion.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\Tesis\bin\Debug\CapaLogica.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\Tesis\bin\Debug\CapaDato.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\Tesis\obj\Debug\Tesis.csprojResolveAssemblyReference.cache
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\Tesis\obj\Debug\Tesis.Properties.Resources.resources
+C:\Users\ImplementadorC\Downloads\TRABAJO-FINAL\TRABAJO FINAL\Tesis\Tesis\obj\Debug\Tesis.csproj.GenerateResource.Cache
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\Tesis\bin\Debug\Tesis.exe.config
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\Tesis\obj\Debug\Tesis.exe
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\Tesis\obj\Debug\Tesis.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\Tesis\bin\Debug\Tesis.exe
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\Tesis\bin\Debug\Tesis.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\Tesis\bin\Debug\CapaPresentacion.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\Tesis\bin\Debug\CapaLogica.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\Tesis\bin\Debug\CapaDato.dll
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\Tesis\bin\Debug\CapaPresentacion.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\Tesis\bin\Debug\CapaLogica.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\Tesis\bin\Debug\CapaDato.pdb
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\Tesis\obj\Debug\Tesis.csprojResolveAssemblyReference.cache
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\Tesis\obj\Debug\Tesis.Properties.Resources.resources
+C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\Tesis\obj\Debug\Tesis.csproj.GenerateResource.Cache
+D:\Nueva carpeta\Tesis\bin\Debug\Tesis.exe.config
+D:\Nueva carpeta\Tesis\obj\Debug\Tesis.exe
+D:\Nueva carpeta\Tesis\obj\Debug\Tesis.pdb
