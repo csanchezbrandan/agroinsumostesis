@@ -19,3 +19,10 @@ C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaLogica\bin\Debug\CapaD
 C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
 C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaLogica\obj\Debug\CapaLogica.pdb
+D:\GIT\repositorio\CapaLogica\bin\Debug\CapaLogica.dll
+D:\GIT\repositorio\CapaLogica\bin\Debug\CapaLogica.pdb
+D:\GIT\repositorio\CapaLogica\bin\Debug\CapaDato.dll
+D:\GIT\repositorio\CapaLogica\bin\Debug\CapaDato.pdb
+D:\GIT\repositorio\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
+D:\GIT\repositorio\CapaLogica\obj\Debug\CapaLogica.dll
+D:\GIT\repositorio\CapaLogica\obj\Debug\CapaLogica.pdb

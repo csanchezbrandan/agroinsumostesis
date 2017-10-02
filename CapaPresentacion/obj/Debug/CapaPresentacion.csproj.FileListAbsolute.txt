@@ -82,3 +82,31 @@ C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaPresentacion\obj\Debug
 C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
 C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaPresentacion\obj\Debug\CapaPresentacion.dll
 C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+D:\GIT\repositorio\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+D:\GIT\repositorio\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+D:\GIT\repositorio\CapaPresentacion\bin\Debug\CapaLogica.dll
+D:\GIT\repositorio\CapaPresentacion\bin\Debug\CapaDato.dll
+D:\GIT\repositorio\CapaPresentacion\bin\Debug\CapaLogica.pdb
+D:\GIT\repositorio\CapaPresentacion\bin\Debug\CapaDato.pdb
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.Categoria.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.Cliente.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.ConsultarCaategoria.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.ConsultarProveedor.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.Empleado.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarCategoria.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngresarCategoria.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngresarCliente.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngresarEmpleado.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngresarProducto.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngresarTransporte.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmInicio.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngresarProveedor.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.Pedido.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.Producto.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedor.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.Transporte.resources
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+D:\GIT\repositorio\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

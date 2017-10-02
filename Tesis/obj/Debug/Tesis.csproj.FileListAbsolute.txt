@@ -43,3 +43,17 @@ C:\Users\ImplementadorC\Downloads\TRABAJO FINAL\Tesis\Tesis\obj\Debug\Tesis.cspr
 D:\Nueva carpeta\Tesis\bin\Debug\Tesis.exe.config
 D:\Nueva carpeta\Tesis\obj\Debug\Tesis.exe
 D:\Nueva carpeta\Tesis\obj\Debug\Tesis.pdb
+D:\GIT\repositorio\Tesis\bin\Debug\Tesis.exe.config
+D:\GIT\repositorio\Tesis\obj\Debug\Tesis.exe
+D:\GIT\repositorio\Tesis\obj\Debug\Tesis.pdb
+D:\GIT\repositorio\Tesis\bin\Debug\Tesis.exe
+D:\GIT\repositorio\Tesis\bin\Debug\Tesis.pdb
+D:\GIT\repositorio\Tesis\bin\Debug\CapaPresentacion.dll
+D:\GIT\repositorio\Tesis\bin\Debug\CapaLogica.dll
+D:\GIT\repositorio\Tesis\bin\Debug\CapaDato.dll
+D:\GIT\repositorio\Tesis\bin\Debug\CapaPresentacion.pdb
+D:\GIT\repositorio\Tesis\bin\Debug\CapaLogica.pdb
+D:\GIT\repositorio\Tesis\bin\Debug\CapaDato.pdb
+D:\GIT\repositorio\Tesis\obj\Debug\Tesis.csprojResolveAssemblyReference.cache
+D:\GIT\repositorio\Tesis\obj\Debug\Tesis.Properties.Resources.resources
+D:\GIT\repositorio\Tesis\obj\Debug\Tesis.csproj.GenerateResource.Cache

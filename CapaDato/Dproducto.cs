@@ -194,23 +194,23 @@ namespace CapaDato
                 sqlcon.ConnectionString = Conexion.cn;
                 sqlcon.Open();
 
-                SqlCommand cdmp = new SqlCommand();
-                cdmp.Connection = sqlcon;
-                cdmp.CommandText = "Produccion.InsertarProducto";
-                cdmp.CommandType = CommandType.StoredProcedure;
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = sqlcon;
+                cmd.CommandText = "Produccion.InsertarProducto";
+                cmd.CommandType = CommandType.StoredProcedure;
 
                 SqlParameter paridprov = new SqlParameter();
                 paridprov.ParameterName = "@idproveedor";
                 paridprov.SqlDbType = SqlDbType.Int;
                 paridprov.Value = producto.Idproveedor;
-                cdmp.Parameters.Add(paridprov);
+                cmd.Parameters.Add(paridprov);
 
 
                 SqlParameter paridc = new SqlParameter();
                 paridc.ParameterName = "@idcategoria";
                 paridc.SqlDbType = SqlDbType.Int;
                 paridc.Value = producto.Idcategoria;
-                cdmp.Parameters.Add(paridc);
+                cmd.Parameters.Add(paridc);
 
               
                 SqlParameter parnomp = new SqlParameter();
@@ -218,78 +218,218 @@ namespace CapaDato
                 parnomp.SqlDbType = SqlDbType.VarChar;
                 parnomp.Size = producto.NombreP.Length;
                 parnomp.Value = producto.NombreP;
-                cdmp.Parameters.Add(parnomp);
+                cmd.Parameters.Add(parnomp);
 
                 SqlParameter parpreccomp = new SqlParameter();
                 parpreccomp.ParameterName = "@preciocompra";
                 parpreccomp.SqlDbType = SqlDbType.SmallMoney;
                 parpreccomp.Value = producto.Preciocompra;
-                cdmp.Parameters.Add(parpreccomp);
+                cmd.Parameters.Add(parpreccomp);
 
 
                 SqlParameter parstock = new SqlParameter();
                 parstock.ParameterName = "@stock";
                 parstock.SqlDbType = SqlDbType.Decimal;
                 parstock.Value = producto.Stock;
-                cdmp.Parameters.Add(parstock);
+                cmd.Parameters.Add(parstock);
 
                 SqlParameter parreposicion = new SqlParameter();
                 parreposicion.ParameterName = "@preposicion";
                 parreposicion.SqlDbType = SqlDbType.Decimal;
                 parreposicion.Value = producto.Puntreposi;
-                cdmp.Parameters.Add(parreposicion);
+                cmd.Parameters.Add(parreposicion);
 
                 SqlParameter parmarca = new SqlParameter();
                 parmarca.ParameterName = "@marca";
                 parmarca.SqlDbType = SqlDbType.VarChar;
                 parmarca.Size = producto.Marca.Length;
                 parmarca.Value = producto.Marca;
-                cdmp.Parameters.Add(parmarca);
+                cmd.Parameters.Add(parmarca);
 
                 SqlParameter parunimedid = new SqlParameter();
                 parunimedid.ParameterName = "@umedida";
                 parunimedid.SqlDbType = SqlDbType.VarChar;
                 parunimedid.Size = producto.Unidmedida.Length;
                 parunimedid.Value = producto.Unidmedida;
-                cdmp.Parameters.Add(parunimedid);
+                cmd.Parameters.Add(parunimedid);
 
                 SqlParameter parestad = new SqlParameter();
                 parestad.ParameterName = "@estado";
                 parestad.SqlDbType = SqlDbType.VarChar;
                 parestad.Size = producto.Estado.Length;
                 parestad.Value = producto.Estado;
-                cdmp.Parameters.Add(parestad);
+                cmd.Parameters.Add(parestad);
 
                 SqlParameter parimag = new SqlParameter();
                 parimag.ParameterName = "@imagen";
                 parimag.SqlDbType = SqlDbType.Image;
                 parimag.Size = producto.Imagen.Length;
                 parimag.Value = producto.Imagen; 
-                cdmp.Parameters.Add(parimag);
+                cmd.Parameters.Add(parimag);
 
                 SqlParameter parfvenc = new SqlParameter();
                 parfvenc.ParameterName = "@fvencimiento";
                 parfvenc.SqlDbType = SqlDbType.Date;
                 parfvenc.Value = producto.Fvencimiento;
-                cdmp.Parameters.Add(parfvenc);
+                cmd.Parameters.Add(parfvenc);
 
                 SqlParameter parprecunit = new SqlParameter();
                 parprecunit.ParameterName = "@preciounitario";
                 parprecunit.SqlDbType = SqlDbType.SmallMoney;
                 parprecunit.Value = producto.Preciounitario;
-                cdmp.Parameters.Add(parprecunit);
+                cmd.Parameters.Add(parprecunit);
 
                 SqlParameter pardesc = new SqlParameter();
                 pardesc.ParameterName = "@descrip";
                 pardesc.SqlDbType = SqlDbType.VarChar;
                 pardesc.Size = producto.Descripcion.Length;
                 pardesc.Value = producto.Descripcion;
-                cdmp.Parameters.Add(pardesc);
+                cmd.Parameters.Add(pardesc);
 
-                cdmp.ExecuteNonQuery();
+                cmd.ExecuteNonQuery();
 
                 rsp = "Y";
             }
+
+            catch (SqlException ex)
+            {
+                if (ex.Number == 8152)
+                {
+                    rsp = "Has introducido demasiados caracteres en uno de los campos.";
+                }
+                else if (ex.Number == 2627)
+                {
+                    rsp = "Ya existe un Producto con ese Nombre.";
+                }
+                else if (ex.Number == 515)
+                {
+                    rsp = "No puedes dejar el campo Nombre vacío.";
+                }
+                else
+                {
+                    rsp = "Error al intentar ejecutar el procedimiento almacenado Produccion.EditarProducto. " + ex.Message;
+                }
+
+            }
+            finally
+            {
+                if (sqlcon.State == ConnectionState.Open)
+                {
+                    sqlcon.Close();
+                }
+ 
+            }
+            return rsp;
+        }
+        public string Editar(Dproducto producto)
+        {
+            string rsp = "";
+            SqlConnection sqlcon = new SqlConnection();
+            try
+            {
+                sqlcon.ConnectionString = Conexion.cn;
+                sqlcon.Open();
+
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = sqlcon;
+                cmd.CommandText = "Produccion.EditarProducto";
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                /*psar parametro*/
+                SqlParameter paridprov = new SqlParameter();
+                paridprov.ParameterName = "@idproveedor";
+                paridprov.SqlDbType = SqlDbType.Int;
+                paridprov.Value = producto.Idproveedor;
+                cmd.Parameters.Add(paridprov);
+
+
+                SqlParameter paridc = new SqlParameter();
+                paridc.ParameterName = "@idcategoria";
+                paridc.SqlDbType = SqlDbType.Int;
+                paridc.Value = producto.Idcategoria;
+                cmd.Parameters.Add(paridc);
+
+
+                SqlParameter parnomp = new SqlParameter();
+                parnomp.ParameterName = "@nombreprod";
+                parnomp.SqlDbType = SqlDbType.VarChar;
+                parnomp.Size = producto.NombreP.Length;
+                parnomp.Value = producto.NombreP;
+                cmd.Parameters.Add(parnomp);
+
+                SqlParameter parpreccomp = new SqlParameter();
+                parpreccomp.ParameterName = "@preciocompra";
+                parpreccomp.SqlDbType = SqlDbType.SmallMoney;
+                parpreccomp.Value = producto.Preciocompra;
+                cmd.Parameters.Add(parpreccomp);
+
+
+                SqlParameter parstock = new SqlParameter();
+                parstock.ParameterName = "@stock";
+                parstock.SqlDbType = SqlDbType.Decimal;
+                parstock.Value = producto.Stock;
+                cmd.Parameters.Add(parstock);
+
+                SqlParameter parreposicion = new SqlParameter();
+                parreposicion.ParameterName = "@preposicion";
+                parreposicion.SqlDbType = SqlDbType.Decimal;
+                parreposicion.Value = producto.Puntreposi;
+                cmd.Parameters.Add(parreposicion);
+
+                SqlParameter parmarca = new SqlParameter();
+                parmarca.ParameterName = "@marca";
+                parmarca.SqlDbType = SqlDbType.VarChar;
+                parmarca.Size = producto.Marca.Length;
+                parmarca.Value = producto.Marca;
+                cmd.Parameters.Add(parmarca);
+
+                SqlParameter parunimedid = new SqlParameter();
+                parunimedid.ParameterName = "@umedida";
+                parunimedid.SqlDbType = SqlDbType.VarChar;
+                parunimedid.Size = producto.Unidmedida.Length;
+                parunimedid.Value = producto.Unidmedida;
+                cmd.Parameters.Add(parunimedid);
+
+                SqlParameter parestad = new SqlParameter();
+                parestad.ParameterName = "@estado";
+                parestad.SqlDbType = SqlDbType.VarChar;
+                parestad.Size = producto.Estado.Length;
+                parestad.Value = producto.Estado;
+                cmd.Parameters.Add(parestad);
+
+                SqlParameter parimag = new SqlParameter();
+                parimag.ParameterName = "@imagen";
+                parimag.SqlDbType = SqlDbType.Image;
+                parimag.Size = producto.Imagen.Length;
+                parimag.Value = producto.Imagen;
+                cmd.Parameters.Add(parimag);
+
+                SqlParameter parfvenc = new SqlParameter();
+                parfvenc.ParameterName = "@fvencimiento";
+                parfvenc.SqlDbType = SqlDbType.Date;
+                parfvenc.Value = producto.Fvencimiento;
+                cmd.Parameters.Add(parfvenc);
+
+                SqlParameter parprecunit = new SqlParameter();
+                parprecunit.ParameterName = "@preciounitario";
+                parprecunit.SqlDbType = SqlDbType.SmallMoney;
+                parprecunit.Value = producto.Preciounitario;
+                cmd.Parameters.Add(parprecunit);
+
+                SqlParameter pardesc = new SqlParameter();
+                pardesc.ParameterName = "@descrip";
+                pardesc.SqlDbType = SqlDbType.VarChar;
+                pardesc.Size = producto.Descripcion.Length;
+                pardesc.Value = producto.Descripcion;
+                cmd.Parameters.Add(pardesc);
+                
+
+                // rsp = cmd.ExecuteNonQuery() == 1 ? "ok" : "No se modificó el registro";
+                cmd.ExecuteNonQuery();
+                rsp = "Y";
+
+            }
+
 
             catch (SqlException ex)
             {
@@ -307,19 +447,20 @@ namespace CapaDato
                 }
                 else
                 {
-                    rsp = "Error al intentar ejecutar el procedimiento almacenado Produccion.InsertarProducto. " + ex.Message;
+                    rsp = "Error al intentar ejecutar el procedimiento almacenado Produccion.EditarCategoria. " + ex.Message;
                 }
-
             }
+
             finally
             {
                 if (sqlcon.State == ConnectionState.Open)
                 {
                     sqlcon.Close();
                 }
- 
             }
+
             return rsp;
+
         }
     }
 }
