@@ -290,8 +290,6 @@ namespace CapaPresentacion
                 this.buscar();
             }
         }
-        
 
-      
     }
 }

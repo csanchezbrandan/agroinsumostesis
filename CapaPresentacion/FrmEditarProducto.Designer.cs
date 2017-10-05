@@ -107,7 +107,6 @@
             this.btneditarp.Text = "EDITAR";
             this.btneditarp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btneditarp.UseVisualStyleBackColor = true;
-            this.btneditarp.Click += new System.EventHandler(this.btneditarp_Click);
             // 
             // btncancelar
             // 
@@ -128,6 +127,7 @@
             this.btnguardar.Text = "GUARDAR";
             this.btnguardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnguardar.UseVisualStyleBackColor = true;
+            this.btnguardar.Click += new System.EventHandler(this.btnguardar_Click);
             // 
             // erroricono
             // 
@@ -367,6 +367,7 @@
             this.btnbusProd.TabIndex = 201;
             this.btnbusProd.Text = "...";
             this.btnbusProd.UseVisualStyleBackColor = true;
+            this.btnbusProd.Click += new System.EventHandler(this.btnbusProd_Click);
             // 
             // btnbusProv
             // 
@@ -376,6 +377,7 @@
             this.btnbusProv.TabIndex = 202;
             this.btnbusProv.Text = "...";
             this.btnbusProv.UseVisualStyleBackColor = true;
+            this.btnbusProv.Click += new System.EventHandler(this.btnbusProv_Click);
             // 
             // txtnombreCategoria
             // 
@@ -400,6 +402,7 @@
             this.bttnabririmage.TabIndex = 205;
             this.bttnabririmage.Text = "...";
             this.bttnabririmage.UseVisualStyleBackColor = true;
+            this.bttnabririmage.Click += new System.EventHandler(this.bttnabririmage_Click_1);
             // 
             // btnlimpiarimag
             // 
@@ -470,7 +473,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FrmEditarProducto";
-            this.Text = "FrmIngresarProducto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "EDITAR PRODUCTO";
             ((System.ComponentModel.ISupportInitialize)(this.erroricono)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pximagen)).EndInit();
