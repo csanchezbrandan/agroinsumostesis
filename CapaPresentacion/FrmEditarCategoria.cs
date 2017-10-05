@@ -9,26 +9,17 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaLogica;
 
-
 namespace CapaPresentacion
 {
     public partial class FrmEditarCategoria : Form
-    {
-        
+    { 
         private bool iseditar = false;
         Categoria _valor;
-         
-        
-        
-     
+
         public FrmEditarCategoria()
         { 
             
             InitializeComponent();
-           
-        
-           
-            
             this.ttmensaje.SetToolTip(this.txtCateg, "Ingrese nombre de Categoria");
             this.ttmensaje.SetToolTip(this.txtdescrip, "Ingrese descripcion de Categoria");
 
@@ -39,10 +30,7 @@ namespace CapaPresentacion
             
             InitializeComponent();
             _valor = valor;
-            
-           
 
-           // this.cajatextoHabilitar(true); 
             this.txtcodigo.Text = Convert.ToString(_valor.ObtenerSeleccion().Cells["ID"].Value);
             this.txtCateg.Text = Convert.ToString(_valor.ObtenerSeleccion().Cells["NOMBRE"].Value);
             this.txtdescrip.Text=Convert.ToString(_valor.ObtenerSeleccion().Cells["DESCRIPCION"].Value);
@@ -77,12 +65,7 @@ namespace CapaPresentacion
             
             this.txtCateg.ReadOnly = !valor;
             this.txtdescrip.ReadOnly = !valor;
-           
-
         }
-
-
-        
 
         private void botones()
         {
@@ -143,34 +126,21 @@ namespace CapaPresentacion
                 {
                     this.mesajerror(rsp);
                 }
-                               
-               
              }
-          }
+         }
                 catch (Exception ex)
                 {
 
                    MessageBox.Show(ex.Message );
                     
                 }
-
-
-      }
-
+        }
 
         private void FrmEditarCategoria_Load(object sender, EventArgs e)
         {
-            
             this.cajatextoHabilitar(false);
             this.txtcodigo.ReadOnly = true;
-            
-
         }
-
-        
-        
-
-       
 
         private void btncancelar_Click(object sender, EventArgs e)
         {

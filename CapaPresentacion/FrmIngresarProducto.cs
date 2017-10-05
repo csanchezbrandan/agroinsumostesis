@@ -23,17 +23,13 @@ namespace CapaPresentacion
         public FrmIngresarProducto()
         {
             InitializeComponent();
-            
-                
            
         }
-
+        
         public FrmIngresarProducto(Producto owner)
         {
             InitializeComponent();
             _owner = owner;
-
-
         }
 
         public void enviarTexto(string enviar1, string enviar2)

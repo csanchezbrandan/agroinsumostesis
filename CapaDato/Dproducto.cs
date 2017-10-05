@@ -423,8 +423,6 @@ namespace CapaDato
                 pardesc.Value = producto.Descripcion;
                 cmd.Parameters.Add(pardesc);
                 
-
-                // rsp = cmd.ExecuteNonQuery() == 1 ? "ok" : "No se modificó el registro";
                 cmd.ExecuteNonQuery();
                 rsp = "Y";
 
@@ -439,7 +437,7 @@ namespace CapaDato
                 }
                 else if (ex.Number == 2627)
                 {
-                    rsp = "Ya existe una categoría con ese Nombre.";
+                    rsp = "Ya existe un Producto con ese Nombre.";
                 }
                 else if (ex.Number == 515)
                 {
@@ -447,7 +445,7 @@ namespace CapaDato
                 }
                 else
                 {
-                    rsp = "Error al intentar ejecutar el procedimiento almacenado Produccion.EditarCategoria. " + ex.Message;
+                    rsp = "Error al intentar ejecutar el procedimiento almacenado Produccion.EditarProducto. " + ex.Message;
                 }
             }
 
