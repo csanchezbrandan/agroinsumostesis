@@ -76,7 +76,7 @@
             this.tableLayoutPanelTop.ColumnCount = 3;
             this.tableLayoutPanelTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.25433F));
             this.tableLayoutPanelTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.74567F));
-            this.tableLayoutPanelTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 297F));
+            this.tableLayoutPanelTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 299F));
             this.tableLayoutPanelTop.Controls.Add(this.tableLayoutPanelEdAgEl, 2, 0);
             this.tableLayoutPanelTop.Controls.Add(this.groupBox1, 1, 0);
             this.tableLayoutPanelTop.Controls.Add(this.labeltitulo, 0, 0);
@@ -100,11 +100,11 @@
             this.tableLayoutPanelEdAgEl.Controls.Add(this.btnagregar, 1, 0);
             this.tableLayoutPanelEdAgEl.Controls.Add(this.btneditar, 0, 0);
             this.tableLayoutPanelEdAgEl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanelEdAgEl.Location = new System.Drawing.Point(718, 3);
+            this.tableLayoutPanelEdAgEl.Location = new System.Drawing.Point(716, 3);
             this.tableLayoutPanelEdAgEl.Name = "tableLayoutPanelEdAgEl";
             this.tableLayoutPanelEdAgEl.RowCount = 1;
             this.tableLayoutPanelEdAgEl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanelEdAgEl.Size = new System.Drawing.Size(292, 79);
+            this.tableLayoutPanelEdAgEl.Size = new System.Drawing.Size(294, 79);
             this.tableLayoutPanelEdAgEl.TabIndex = 0;
             // 
             // btneliminar
@@ -112,7 +112,7 @@
             this.btneliminar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btneliminar.Image = global::CapaPresentacion.Properties.Resources.eliminar;
             this.btneliminar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btneliminar.Location = new System.Drawing.Point(194, 0);
+            this.btneliminar.Location = new System.Drawing.Point(196, 0);
             this.btneliminar.Margin = new System.Windows.Forms.Padding(0);
             this.btneliminar.Name = "btneliminar";
             this.btneliminar.Size = new System.Drawing.Size(98, 79);
@@ -126,10 +126,10 @@
             this.btnagregar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnagregar.Image = global::CapaPresentacion.Properties.Resources.agregar;
             this.btnagregar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnagregar.Location = new System.Drawing.Point(97, 0);
+            this.btnagregar.Location = new System.Drawing.Point(98, 0);
             this.btnagregar.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.btnagregar.Name = "btnagregar";
-            this.btnagregar.Size = new System.Drawing.Size(94, 79);
+            this.btnagregar.Size = new System.Drawing.Size(95, 79);
             this.btnagregar.TabIndex = 1;
             this.btnagregar.Text = "AGREGAR";
             this.btnagregar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -144,7 +144,7 @@
             this.btneditar.Location = new System.Drawing.Point(0, 0);
             this.btneditar.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.btneditar.Name = "btneditar";
-            this.btneditar.Size = new System.Drawing.Size(94, 79);
+            this.btneditar.Size = new System.Drawing.Size(95, 79);
             this.btneditar.TabIndex = 0;
             this.btneditar.Text = "EDITAR";
             this.btneditar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -156,7 +156,7 @@
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.tableLayoutPanelbuscar);
-            this.groupBox1.Location = new System.Drawing.Point(456, 3);
+            this.groupBox1.Location = new System.Drawing.Point(454, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(256, 79);
             this.groupBox1.TabIndex = 2;
@@ -231,7 +231,7 @@
             this.labeltitulo.AutoSize = true;
             this.labeltitulo.Font = new System.Drawing.Font("Candara", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labeltitulo.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.labeltitulo.Location = new System.Drawing.Point(160, 0);
+            this.labeltitulo.Location = new System.Drawing.Point(159, 0);
             this.labeltitulo.Margin = new System.Windows.Forms.Padding(0);
             this.labeltitulo.Name = "labeltitulo";
             this.labeltitulo.Size = new System.Drawing.Size(264, 59);
@@ -267,7 +267,6 @@
             this.dataGridViewCategoria.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewCategoria.Size = new System.Drawing.Size(1013, 413);
             this.dataGridViewCategoria.TabIndex = 1;
-            //this.dataGridViewCategoria.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCategoria_CellContentClick);
             // 
             // Eliminar
             // 

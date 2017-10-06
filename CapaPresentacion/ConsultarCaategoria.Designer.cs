@@ -54,7 +54,7 @@
             this.dataGridViewCategoria.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewCategoria.Size = new System.Drawing.Size(1102, 398);
             this.dataGridViewCategoria.TabIndex = 2;
-            this.dataGridViewCategoria.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCategoria_CellContentClick);
+            //this.dataGridViewCategoria.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCategoria_CellContentClick);
             this.dataGridViewCategoria.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCategoria_CellDoubleClick_1);
             // 
             // Eliminar

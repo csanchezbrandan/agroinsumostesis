@@ -458,7 +458,48 @@ namespace CapaDato
             }
 
             return rsp;
+        }
+        public DataTable BuscarP(Dproducto parCategorias)
+        {
+            DataTable TablaDatos = new DataTable("Produccion.Producto");
+            SqlConnection SqlConexion = new SqlConnection();
 
+            try
+            {
+                SqlConexion.ConnectionString = Conexion.cn;
+                SqlConexion.Open();
+
+                SqlCommand SqlComando = new SqlCommand();
+                SqlComando.Connection = SqlConexion;
+                SqlComando.CommandText = "Produccion.BuscarProducto";
+                SqlComando.CommandType = CommandType.StoredProcedure;
+
+                SqlParameter ParNombre_Buscado = new SqlParameter();
+                ParNombre_Buscado.ParameterName = "@nombreproducto";
+                ParNombre_Buscado.SqlDbType = SqlDbType.VarChar;
+                ParNombre_Buscado.Size = parCategorias.NombreP.Length;
+                ParNombre_Buscado.Value = parCategorias.NombreP;
+                SqlComando.Parameters.Add(ParNombre_Buscado);
+
+                SqlDataAdapter SqlAdaptadorDatos = new SqlDataAdapter(SqlComando);
+                SqlAdaptadorDatos.Fill(TablaDatos);
+            }
+
+            catch (Exception ex)
+            {
+                TablaDatos = null;
+                throw new Exception("Error al intentar ejecutar el procedimiento almacenado Produccion.BuscarProducto. " + ex.Message, ex);
+            }
+
+            finally
+            {
+                if (SqlConexion.State == ConnectionState.Open)
+                {
+                    SqlConexion.Close();
+                }
+            }
+
+            return TablaDatos;
         }
     }
 }

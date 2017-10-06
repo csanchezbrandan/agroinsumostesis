@@ -21,8 +21,6 @@ namespace CapaPresentacion
             mostrar();
         }
 
-       
-
         private void btnagregar_Click(object sender, EventArgs e)
         {
             FrmIngresarProducto ingrersar = new FrmIngresarProducto(this);
@@ -72,6 +70,30 @@ namespace CapaPresentacion
         {
             DataGridViewRow filaSeleccionada = this.dataGridViewProduct.Rows[this.dataGridViewProduct.CurrentRow.Index];
             return filaSeleccionada;
+        }
+        
+        public void buscar()
+        {
+            try
+            {
+                this.dataGridViewProduct.DataSource = Lproducto.BuscarP(this.txtbuscar.Text);
+            }
+            catch (Exception ex)
+            {
+                mesajerror(ex.Message);
+
+            }
+        }
+        private void txtbuscar_TextChanged(object sender, EventArgs e)
+        {
+            if (this.txtbuscar.Text == String.Empty)
+            {
+                this.mostrar();
+            }
+            else
+            {
+                this.buscar();
+            }
         }
     }
 }

@@ -14,9 +14,7 @@ namespace CapaLogica
 
         public static DataTable mostrar()
         {
-
             return new Dcategoria().mostrar();
-
         }
 
         public static string Insertar ( string NOMBRE, string DESCRIPCION)
@@ -59,7 +57,6 @@ namespace CapaLogica
             obj.Nombrebuscar = buscar;
             
             return obj.Buscar(obj);
-
         }
        
 

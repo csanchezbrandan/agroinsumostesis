@@ -99,9 +99,6 @@ namespace CapaDato
            return dt;
        }
 
-
-
-
        //*insertar*//
        public string Insertar(Dcategoria parcategoria)
        {
@@ -118,9 +115,7 @@ namespace CapaDato
               SqlCommand cmd = new SqlCommand();
               cmd.Connection = sqlcon;
               cmd.CommandText = "Produccion.InsertarCategoria";
-              cmd.CommandType = CommandType.StoredProcedure;
-
-             
+              cmd.CommandType = CommandType.StoredProcedure;    
               
               SqlParameter parnombre = new SqlParameter();
               parnombre.ParameterName = "@Nombre";
@@ -141,9 +136,7 @@ namespace CapaDato
 
               rsp = "Y";
 
-
           }
-
 
           catch (SqlException ex)
           {
@@ -177,7 +170,6 @@ namespace CapaDato
        }
      
        //*editar*//
-
        public string Editar(Dcategoria categoria)
        {
           string rsp = "";
@@ -220,7 +212,6 @@ namespace CapaDato
 
           }
 
-
           catch (SqlException ex)
           {
               if (ex.Number == 8152)
@@ -253,7 +244,6 @@ namespace CapaDato
 
       }
           
-
        public DataTable Buscar(Dcategoria parCategorias)
        {
            DataTable TablaDatos = new DataTable("Produccion.Categorias");
@@ -297,9 +287,8 @@ namespace CapaDato
            return TablaDatos;
        }
 
-
        //*eliminar*//
-      
+  
        public string Eliminar(Dcategoria categoria)
        {
           string rps = "";

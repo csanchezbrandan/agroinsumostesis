@@ -15,7 +15,6 @@ namespace CapaPresentacion
     public partial class Categoria : UserControl
     {
 
-  //    FrmInicio _ower;
         public string x;
         public string j;
        
@@ -112,7 +111,6 @@ namespace CapaPresentacion
             FrmIngresarCategoria nuevacategoria = new FrmIngresarCategoria(this);
             nuevacategoria.ShowDialog();
         }
-
 
         public void cerrar()
         {

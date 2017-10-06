@@ -16,7 +16,7 @@ namespace CapaPresentacion
         private bool iseditar = false;
         Producto _valor;
 
-        Producto _owner;
+       Producto _owner;
         private bool isnuevo = false;
 
         public FrmEditarProducto()
