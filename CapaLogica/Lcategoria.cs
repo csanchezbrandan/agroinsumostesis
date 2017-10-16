@@ -12,9 +12,9 @@ namespace CapaLogica
     {
 
 
-        public static DataTable mostrar()
+        public static DataTable mostrarC()
         {
-            return new Dcategoria().mostrar();
+            return new Dcategoria().mostrarC();
         }
 
         public static string Insertar ( string NOMBRE, string DESCRIPCION)

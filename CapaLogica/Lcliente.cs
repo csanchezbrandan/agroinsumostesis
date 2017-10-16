@@ -11,25 +11,44 @@ namespace CapaLogica
 {
    public class Lcliente
     {
-        public static DataTable MostrarC()
-        {
-            return new Dcliente().MostrarC();
-        }
-
-        public static string InsertarC(int DNIC, int DNIDIR, int DNITELE, string NOMBRE,string APELL, string MAIL, string ESTADO)
-        {
-            Dcliente cliente = new Dcliente();
-
-            cliente.Dni = DNIC;
-            cliente.Dnidire = DNIDIR;
-            cliente.Dnitelef = DNITELE;
-            cliente.Nombrec = NOMBRE;
-            cliente.Apellidoc = APELL;
-            cliente.Mail = MAIL;
-            cliente.Estado = ESTADO;
-
-            return cliente.InsertarC(cliente);
-            
-        }
+       public static DataTable MostrarC()
+       {
+           return new Dcliente().MostrarC();
+       }
+       public static string InsertarC(int DNI,int DOMICILIO, int TELEFONO, string NOMBRE, string APELLIDO, string MAIL,string ESTADO)
+       {
+           Dcliente cliente = new Dcliente();
+           cliente.Idcliente = DNI;
+           cliente.Dnidire = DOMICILIO;
+           cliente.Dnitelef = TELEFONO;
+           cliente.Nombrec = NOMBRE;
+           cliente.Apellidoc = APELLIDO;
+           cliente.Estado = ESTADO;
+           return cliente.InsertarC(cliente);
+       }
+    
+    public static string EditarC(int DNI,int DOMICILIO, int TELEFONO, string NOMBRE, string APELLIDO, string MAIL,string ESTADO)
+    {
+        Dcliente cliente = new Dcliente();
+           cliente.Idcliente = DNI;
+           cliente.Dnidire = DOMICILIO;
+           cliente.Dnitelef = TELEFONO;
+           cliente.Nombrec = NOMBRE;
+           cliente.Apellidoc = APELLIDO;
+           cliente.Estado = ESTADO;
+           return cliente.EditarCliente(cliente);
     }
+    public static DataTable BuscarC(int dni)
+    {
+        Dcliente cliente = new Dcliente();
+        cliente.BuscarCliente = dni;
+        return cliente.BuscarCliente(cliente);
+    }
+    //public static string EliminarC(int DNI)
+    //{
+    //    Dcliente cliente = new Dcliente();
+    //    cliente.Idcliente = DNI;
+    //    return cliente.EliminarCliente(cliente);
+    //}
+   }
 }

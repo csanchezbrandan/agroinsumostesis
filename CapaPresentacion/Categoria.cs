@@ -30,7 +30,7 @@ namespace CapaPresentacion
             try
             {
                 this.Dock = DockStyle.Fill;
-                this.dataGridViewCategoria.DataSource = Lcategoria.mostrar();
+                this.dataGridViewCategoria.DataSource = Lcategoria.mostrarC();
                 this.dataGridViewCategoria.Columns[0].Visible = false;
 
             }

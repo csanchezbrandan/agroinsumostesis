@@ -17,11 +17,8 @@ namespace CapaLogica
         }
         public static DataTable BuscarP(string buscar)
         {
-
             Dproducto obj = new Dproducto();
-
             obj.NombreP = buscar;
-
             return obj.BuscarP(obj);
         }
         public static string InsertarP(int IDP, int IDC, string NP, decimal PRCOMP, decimal PREUNIT, decimal STOCK, decimal PREPOS, string MARCA, string ESTAD, byte[] IMAGEN, DateTime FVENCIM, string UMEDID, string DESCRIP)

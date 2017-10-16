@@ -129,7 +129,7 @@ namespace CapaPresentacion
                    
                     rsp = Lproveedor_direcc.InsertarPD(Convert.ToInt32(this.txtiddirec.Text), this.txtcalle.Text, Convert.ToInt32(this.txtNcalle.Text),this.txtProv.Text, this.txtlocalidad.Text, this.txtbarrio.Text, Convert.ToInt32(this.txtcp.Text));
 
-                    rsp = Lcliente.InsertarC(Convert.ToInt32(this.txtdnic.Text), Convert.ToInt32(this.txtdnicd.Text), Convert.ToInt32(this.txtdnict.Text), this.PLMay(this.txtnombre.Text), this.PLMay(this.txtapellido.Text), this.txtmailc.Text, this.txtestadoc.Text);
+                //    rsp = Lcliente.InsertarC(Convert.ToInt32(this.txtdnic.Text), Convert.ToInt32(this.txtdnicd.Text), Convert.ToInt32(this.txtdnict.Text), this.PLMay(this.txtnombre.Text), this.PLMay(this.txtapellido.Text), this.txtmailc.Text, this.txtestadoc.Text);
                                         
                }
                

@@ -60,7 +60,7 @@ namespace CapaDato
 
        //*buscar*//
 
-       public DataTable mostrar()
+       public DataTable mostrarC()
        {
 
            DataTable dt = new DataTable("Produccion.Categoria");
