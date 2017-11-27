@@ -18,3 +18,8 @@ D:\GIT\repositorio\CapaDato\bin\Debug\CapaDato.pdb
 D:\GIT\repositorio\CapaDato\obj\Debug\CapaDato.csprojResolveAssemblyReference.cache
 D:\GIT\repositorio\CapaDato\obj\Debug\CapaDato.dll
 D:\GIT\repositorio\CapaDato\obj\Debug\CapaDato.pdb
+C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaDato\bin\Debug\CapaDato.dll
+C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaDato\bin\Debug\CapaDato.pdb
+C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaDato\obj\Debug\CapaDato.csprojResolveAssemblyReference.cache
+C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaDato\obj\Debug\CapaDato.dll
+C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaDato\obj\Debug\CapaDato.pdb

@@ -10,17 +10,11 @@ using System.Windows.Forms;
 using CapaLogica;
 using CapaPresentacion;
  
-
-
 namespace CapaPresentacion
 {
     public partial class Categoria : UserControl
     {
-       
-        
-   
 
-  //    FrmInicio _ower;
         public string x;
         public string j;
        
@@ -28,32 +22,17 @@ namespace CapaPresentacion
         public Categoria()
         {
             InitializeComponent();
-           
-            mostrar();
-
-         
-
-           
+            mostrar(); 
         }
 
-       
-
-       
-        //
         public void mostrar()
          {
             try
             {
                 this.Dock = DockStyle.Fill;
-                this.dataGridViewCategoria.DataSource = Lcategoria.mostrar();
+                this.dataGridViewCategoria.DataSource = Lcategoria.mostrarC();
                 this.dataGridViewCategoria.Columns[0].Visible = false;
-                //this.ocultarcolumna();
-              
-               
-                
 
-                    
-               // lblTregistro.Text = Convert.ToString(dataGridViewCategoria.Rows.Count);
             }
             catch (Exception ex)
             { 
@@ -61,17 +40,6 @@ namespace CapaPresentacion
             }
         }
 
-       
-        
-        //private void ocultarcolumna()
-        //{
-        //   // this.dataGridViewCategoria.Columns[0].Visible = false;
-        //   // this.dataGridViewCategoria.Columns[1].Visible = false;
-
-        //}
-        
-       
-       
          public void bucar()
          {
              try
@@ -99,13 +67,7 @@ namespace CapaPresentacion
          public DataGridViewRow ObtenerSeleccion()
          {
              DataGridViewRow filaSeleccionada = this.dataGridViewCategoria.Rows[this.dataGridViewCategoria.CurrentRow.Index];
-
-             //new FrmIngresarProducto(this).CargarCategorias();
-
              return filaSeleccionada;
-
-             
-
          }
 
         private void btneditar_Click(object sender, EventArgs e)
@@ -150,91 +112,13 @@ namespace CapaPresentacion
             nuevacategoria.ShowDialog();
         }
 
-
         public void cerrar()
         {
             
            this.ParentForm.Close();
         }
-        //public void dataGridViewCategoria_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
-        //{
-        //    //FrmInicio v = new FrmInicio();
-        //    //v.abrirproducto(); 
-        //    //_ower.abrirproducto();
-        //    this.ObtenerSeleccion();
-
-        //    new FrmInicio().borrar();
-           
-        //    //new FrmIngresarCategoria().Close();
-
-
-                       
-
-        //    FrmIngresarProducto product = new FrmIngresarProducto(this);
-
-     
-        //    //new FrmIngresarProducto().ShowDialog();
-           
-            
-           
-        //    //v.borrar();
-        //    //v.borrarpanel();
-
-           
-           
-        //    //v.borrarpanel();
-
-
-           
-
-        //    //new FrmInicio().borrarpanel();
-          
-
-
-        //    //try
-        //    //{
-
-        //    //    if (this.dataGridViewCategoria.Rows.Count > 0)
-        //    //    {
-        //    //        x = Convert.ToString(ObtenerSeleccion().Cells["ID"].Value);
-        //    //        j = Convert.ToString(ObtenerSeleccion().Cells["NOMBRE"].Value);
-
-        //    //        new FrmIngresarProducto().CargarCategorias();
-
-        //    //        new FrmIngresarCategoria().Close();
-
-        //    //        FrmIngresarProducto product = new FrmIngresarProducto(this);
-        //    //        product.ShowDialog();
-        //    //    }
-        //    //    else
-        //    //    {
-        //    //        mesajerror("Debe seleccionar una fila para cargar categoria");
-        //    //    }
-        //    //}
-        //    //catch (Exception ex)
-        //    //{
-        //    //    mesajerror(ex.Message);
-        //    //}
-
-          
-         
-          
-            
-            
-
-        //}
-
-        private void dataGridViewCategoria_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-      
-       
     }
-        
-      
- }
+}
 
        
 

@@ -73,7 +73,7 @@
             this.tableLayoutPanelTop.ColumnCount = 3;
             this.tableLayoutPanelTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 64.1161F));
             this.tableLayoutPanelTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.8839F));
-            this.tableLayoutPanelTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 266F));
+            this.tableLayoutPanelTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 272F));
             this.tableLayoutPanelTop.Controls.Add(this.tableLayoutPanelEdAgEl, 2, 0);
             this.tableLayoutPanelTop.Controls.Add(this.groupBox1, 1, 0);
             this.tableLayoutPanelTop.Controls.Add(this.labeltitulo, 0, 0);
@@ -96,11 +96,11 @@
             this.tableLayoutPanelEdAgEl.Controls.Add(this.btnagregar, 1, 0);
             this.tableLayoutPanelEdAgEl.Controls.Add(this.btneditar, 0, 0);
             this.tableLayoutPanelEdAgEl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanelEdAgEl.Location = new System.Drawing.Point(749, 3);
+            this.tableLayoutPanelEdAgEl.Location = new System.Drawing.Point(743, 3);
             this.tableLayoutPanelEdAgEl.Name = "tableLayoutPanelEdAgEl";
             this.tableLayoutPanelEdAgEl.RowCount = 1;
             this.tableLayoutPanelEdAgEl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanelEdAgEl.Size = new System.Drawing.Size(261, 75);
+            this.tableLayoutPanelEdAgEl.Size = new System.Drawing.Size(267, 75);
             this.tableLayoutPanelEdAgEl.TabIndex = 0;
             // 
             // btneliminar
@@ -108,10 +108,10 @@
             this.btneliminar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btneliminar.Image = global::CapaPresentacion.Properties.Resources.eliminar;
             this.btneliminar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btneliminar.Location = new System.Drawing.Point(174, 0);
+            this.btneliminar.Location = new System.Drawing.Point(178, 0);
             this.btneliminar.Margin = new System.Windows.Forms.Padding(0);
             this.btneliminar.Name = "btneliminar";
-            this.btneliminar.Size = new System.Drawing.Size(87, 75);
+            this.btneliminar.Size = new System.Drawing.Size(89, 75);
             this.btneliminar.TabIndex = 2;
             this.btneliminar.Text = "ELIMINAR";
             this.btneliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -122,10 +122,10 @@
             this.btnagregar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnagregar.Image = global::CapaPresentacion.Properties.Resources.agregar;
             this.btnagregar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnagregar.Location = new System.Drawing.Point(87, 0);
+            this.btnagregar.Location = new System.Drawing.Point(89, 0);
             this.btnagregar.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.btnagregar.Name = "btnagregar";
-            this.btnagregar.Size = new System.Drawing.Size(84, 75);
+            this.btnagregar.Size = new System.Drawing.Size(86, 75);
             this.btnagregar.TabIndex = 1;
             this.btnagregar.Text = "AGREGAR";
             this.btnagregar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -140,18 +140,19 @@
             this.btneditar.Location = new System.Drawing.Point(0, 0);
             this.btneditar.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.btneditar.Name = "btneditar";
-            this.btneditar.Size = new System.Drawing.Size(84, 75);
+            this.btneditar.Size = new System.Drawing.Size(86, 75);
             this.btneditar.TabIndex = 0;
             this.btneditar.Text = "EDITAR";
             this.btneditar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btneditar.UseVisualStyleBackColor = true;
+            this.btneditar.Click += new System.EventHandler(this.btneditar_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.tableLayoutPanelbuscar);
-            this.groupBox1.Location = new System.Drawing.Point(487, 3);
+            this.groupBox1.Location = new System.Drawing.Point(481, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(256, 75);
             this.groupBox1.TabIndex = 2;
@@ -186,6 +187,7 @@
             this.txtbuscar.Size = new System.Drawing.Size(119, 20);
             this.txtbuscar.TabIndex = 0;
             this.txtbuscar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtbuscar.TextChanged += new System.EventHandler(this.txtbuscar_TextChanged);
             // 
             // label1
             // 
@@ -205,7 +207,7 @@
             this.btnrefre.Name = "btnrefre";
             this.btnrefre.Size = new System.Drawing.Size(119, 22);
             this.btnrefre.TabIndex = 2;
-            this.btnrefre.Text = "REFREZCAR";
+            this.btnrefre.Text = "REFRESCAR";
             this.btnrefre.UseVisualStyleBackColor = true;
             // 
             // labeltitulo
@@ -235,6 +237,7 @@
             this.dataGridViewProduct.Margin = new System.Windows.Forms.Padding(0);
             this.dataGridViewProduct.Name = "dataGridViewProduct";
             this.dataGridViewProduct.ReadOnly = true;
+            this.dataGridViewProduct.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewProduct.Size = new System.Drawing.Size(1013, 439);
             this.dataGridViewProduct.TabIndex = 1;
             // 

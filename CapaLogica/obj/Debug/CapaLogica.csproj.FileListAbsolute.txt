@@ -26,3 +26,10 @@ D:\GIT\repositorio\CapaLogica\bin\Debug\CapaDato.pdb
 D:\GIT\repositorio\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
 D:\GIT\repositorio\CapaLogica\obj\Debug\CapaLogica.dll
 D:\GIT\repositorio\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaLogica\bin\Debug\CapaDato.dll
+C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaLogica\bin\Debug\CapaDato.pdb
+C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
+C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaLogica\obj\Debug\CapaLogica.pdb

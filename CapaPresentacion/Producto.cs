@@ -21,14 +21,10 @@ namespace CapaPresentacion
             mostrar();
         }
 
-       
-
         private void btnagregar_Click(object sender, EventArgs e)
         {
             FrmIngresarProducto ingrersar = new FrmIngresarProducto(this);
             ingrersar.ShowDialog();
-            
-            
         }
 
         private void mesajerror(string mensaje)
@@ -42,13 +38,7 @@ namespace CapaPresentacion
                 this.Dock = DockStyle.Fill;
                 this.dataGridViewProduct.DataSource = Lproducto.MostrarP();
                 this.dataGridViewProduct.Columns[0].Visible = false;
-                //this.ocultarcolumna();
 
-
-
-
-
-                // lblTregistro.Text = Convert.ToString(dataGridViewCategoria.Rows.Count);
             }
             catch (Exception ex)
             {
@@ -56,9 +46,54 @@ namespace CapaPresentacion
             }
         }
 
-        
+        private void btneditar_Click(object sender, EventArgs e)
+        {
+            try
+            {
 
-       
-     
+                if (this.dataGridViewProduct.Rows.Count > 0)
+                {
+                    FrmEditarProducto editarcategoria = new FrmEditarProducto(this);
+                    editarcategoria.ShowDialog();
+                }
+                else
+                {
+                    mesajerror("Debe seleccionar una fila para editar");
+                }
+            }
+            catch (Exception ex)
+            {
+                mesajerror(ex.Message);
+            }
+        }
+        public DataGridViewRow ObtenerSeleccion()
+        {
+            DataGridViewRow filaSeleccionada = this.dataGridViewProduct.Rows[this.dataGridViewProduct.CurrentRow.Index];
+            return filaSeleccionada;
+        }
+        
+        public void buscar()
+        {
+            try
+            {
+                this.dataGridViewProduct.DataSource = Lproducto.BuscarP(this.txtbuscar.Text);
+            }
+            catch (Exception ex)
+            {
+                mesajerror(ex.Message);
+
+            }
+        }
+        private void txtbuscar_TextChanged(object sender, EventArgs e)
+        {
+            if (this.txtbuscar.Text == String.Empty)
+            {
+                this.mostrar();
+            }
+            else
+            {
+                this.buscar();
+            }
+        }
     }
 }

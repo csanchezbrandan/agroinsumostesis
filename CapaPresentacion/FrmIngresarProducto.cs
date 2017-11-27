@@ -23,17 +23,13 @@ namespace CapaPresentacion
         public FrmIngresarProducto()
         {
             InitializeComponent();
-            
-                
            
         }
-
+        
         public FrmIngresarProducto(Producto owner)
         {
             InitializeComponent();
             _owner = owner;
-
-
         }
 
         public void enviarTexto(string enviar1, string enviar2)
@@ -163,8 +159,6 @@ namespace CapaPresentacion
                     this.mostrarconsultaCategoria();
                    
                 }
-                   
-
         }
 
         private void btnbusProv_Click(object sender, EventArgs e)
@@ -175,16 +169,12 @@ namespace CapaPresentacion
        {
            ConsultarCaategoria consulta = new ConsultarCaategoria();
            consulta.ShowDialog(this);
-           
-           
        }
 
        private void mostrarconsultaProveedor()
        {
           ConsultarProveedor consulta = new ConsultarProveedor();
           consulta.ShowDialog(this);
-
-
        }
 
         private void btncancelar_Click(object sender, EventArgs e)
