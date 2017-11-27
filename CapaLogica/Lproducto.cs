@@ -38,5 +38,17 @@ namespace CapaLogica
 
             return producto.InsertarProducto(producto);
         }
+
+        public static string Editar(int IDPROUD,int IDPROV,int IDCATEG, string NOMBRP, string PRECCOMP, STOCK,PREPOS,string MARCA,UNIMEDID,ESTADO,IMAGEN,FVENCIM,PREUNITAR,PREUNITAR,DESCRIP)
+        {
+
+            Dcategoria obj = new Dcategoria();
+            obj.Idcategoria = IDCATEGORIA;
+            obj.Nombrecategoria = NOMBRE;
+            obj.Descripcioncategoria = DESCRIPCION;
+
+            return obj.Editar(obj);
+
+        }
     }
 }

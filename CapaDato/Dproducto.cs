@@ -295,7 +295,7 @@ namespace CapaDato
             {
                 if (ex.Number == 8152)
                 {
-                    rsp = "Has introducido demasiados caracteres en uno de los campos.";
+                    rsp = "Ha introducido demasiados caracteres en uno de los campos.";
                 }
                 else if (ex.Number == 2627)
                 {
