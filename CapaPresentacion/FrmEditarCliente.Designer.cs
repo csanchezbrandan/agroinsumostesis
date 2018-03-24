@@ -1,6 +1,6 @@
 ﻿namespace CapaPresentacion
 {
-    partial class FrmIngresarCliente
+    partial class FrmEditarCliente
     {
         /// <summary>
         /// Required designer variable.
@@ -280,7 +280,7 @@
             this.btncancelar.Text = "CANCELAR";
             this.btncancelar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btncancelar.UseVisualStyleBackColor = true;
-            this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
+           
             // 
             // btnguardar
             // 
@@ -291,7 +291,7 @@
             this.btnguardar.Text = "GUARDAR";
             this.btnguardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnguardar.UseVisualStyleBackColor = true;
-            this.btnguardar.Click += new System.EventHandler(this.btnguardar_Click);
+            
             // 
             // btnuevo
             // 
@@ -302,7 +302,7 @@
             this.btnuevo.Text = "NUEVO";
             this.btnuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnuevo.UseVisualStyleBackColor = true;
-            this.btnuevo.Click += new System.EventHandler(this.btnuevo_Click);
+            
             // 
             // label15
             // 
@@ -515,7 +515,7 @@
             this.Controls.Add(this.txtidtelefc);
             this.Name = "FrmIngresarCliente";
             this.Text = "Registrar Cliente";
-            this.Load += new System.EventHandler(this.FrmIngresarCliente_Load);
+            
             this.tableLayoutPanel3.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

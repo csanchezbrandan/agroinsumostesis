@@ -41,12 +41,51 @@ namespace CapaPresentacion
                 mesajerror(ex.Message);
             }
         }
+        public DataGridViewRow ObtenerSeleccion()
+        {
+            DataGridViewRow filaSeleccionada = this.dataGridViewCliente.Rows[this.dataGridViewCliente.CurrentRow.Index];
+            return filaSeleccionada;
+        }
+
         private void btnagregar_Click(object sender, EventArgs e)
         {
-            FrmIngresarCliente ingreClin = new FrmIngresarCliente(this);
+            FrmEditarCliente ingreClin = new FrmEditarCliente(this);
             ingreClin.ShowDialog();
-            
+        }
+
+        private void btneditar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (this.dataGridViewCliente.Rows.Count > 0)
+                {
+                    FrmEditarCliente editarCliente = new FrmEditarCliente(this);
+                    editarCliente.ShowDialog();
+                }
+                else
+                {
+                    MensajeError("Debes seleccionar una fila para editar");
+                }
+            }
+            catch (Exception ex)
+            {
+                MensajeError(ex.Message);
+            }
 
         }
+        private void MensajeError(string mensaje)
+        {
+            MessageBox.Show(mensaje, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+        public void Mensaje(String mensaje)
+        {
+            this.labelMensajes.Text = mensaje;
+        }
+        //public void Refrescar()
+        //{
+            
+        //    this.Mostrar();
+        //}
+
     }
 }

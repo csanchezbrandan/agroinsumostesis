@@ -22,23 +22,19 @@ namespace CapaDato
 
         public int Idcliente
         {
-            get { return _idcliente; }
-            set { _idcliente = value; }
+            get { return _idcliente; } set { _idcliente = value; }
         }
         public int Dni
         {
-            get { return _dni; }
-            set { _dni = value; }
+            get { return _dni; } set { _dni = value; }
         }
         public int Dnidire
         {
-            get { return dnidire; }
-            set { dnidire = value; }
+            get { return dnidire; } set { dnidire = value; }
         }
         public int Dnitelef
         {
-            get { return dnitelef; }
-            set { dnitelef = value; }
+            get { return dnitelef; }  set { dnitelef = value; }
         }
 
         public string Nombrec
@@ -193,7 +189,7 @@ namespace CapaDato
                 }
                 else if (ex.Number == 2627)
                 {
-                    rsp = "Ya existe una categoría con ese Nombre.";
+                    rsp = "Ya existe un Cliente con ese DNI.";
                 }
                 else if (ex.Number == 515)
                 {
@@ -201,7 +197,7 @@ namespace CapaDato
                 }
                 else
                 {
-                    rsp = "Error al intentar ejecutar el procedimiento almacenado Produccion.InsertarProveedor. " + ex.Message;
+                    rsp = "Error al intentar ejecutar el procedimiento almacenado Produccion.InsertarCliente. " + ex.Message;
                 }
 
 
@@ -291,7 +287,7 @@ namespace CapaDato
                 }
                 else if (ex.Number == 2627)
                 {
-                    rsp = "Ya existe una categoría con ese Nombre.";
+                    rsp = "Ya existe una Cliente con ese Documento.";
                 }
                 else if (ex.Number == 515)
                 {

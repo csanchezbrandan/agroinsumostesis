@@ -7,13 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using CapaLogica;
 
 namespace CapaPresentacion
 {
     public partial class FrmIngresarCliente : Form
     {
-        private Cliente _ower;
+        private Cliente _owner;
 
         private bool isnuevo = false;
         public FrmIngresarCliente()
@@ -22,11 +21,7 @@ namespace CapaPresentacion
            
         }
 
-        public FrmIngresarCliente(Cliente ower)
-        {
-            _ower = ower;
-            InitializeComponent();
-        }
+
 
         public void mesajeok(string mensaje)
         {
@@ -87,7 +82,7 @@ namespace CapaPresentacion
                 this.cajatextoHabilitar(true);
                 this.btnguardar.Enabled = true;
                 this.btnuevo.Enabled = false;
-                this.btncancelar.Enabled = true;
+                this.btncancelar.Enabled = false;
 
             }
             else
@@ -96,7 +91,7 @@ namespace CapaPresentacion
                 this.cajatextoHabilitar(false);
                 this.btnguardar.Enabled = false;
                 this.btnuevo.Enabled = true;
-                this.btncancelar.Enabled = false;
+                this.btncancelar.Enabled = true;
 
             }
         }
@@ -114,7 +109,7 @@ namespace CapaPresentacion
                 if (this.txtdnic.Text == string.Empty && this.txtmailc.Text == string.Empty)
                 {
                     mesajerror("No puede dejar nombre de campo vacío");
-                    erroricono.SetError(txtdnic, "Debe ingresar DNI de CLIENTE");
+                    //erroricono.SetError(txtdnic, "Debe ingresar DNI de CLIENTE");
                 }
                
                 if (this.isnuevo)
@@ -172,9 +167,13 @@ namespace CapaPresentacion
             this.txtdnic.Focus();
             cajatextoHabilitar(false);
             botones();
+            this.btncancelar.Enabled = true;
             
         }
 
-        
+        private void btncancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }       
     }
 }

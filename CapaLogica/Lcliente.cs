@@ -27,7 +27,7 @@ namespace CapaLogica
            return cliente.InsertarC(cliente);
        }
     
-    public static string EditarC(int DNI,int DOMICILIO, int TELEFONO, string NOMBRE, string APELLIDO, string MAIL,string ESTADO)
+    public static string EditarC(int DNI,int  DOMICILIO, int TELEFONO, string NOMBRE, string APELLIDO, string MAIL,string ESTADO)
     {
         Dcliente cliente = new Dcliente();
            cliente.Idcliente = DNI;
@@ -35,13 +35,14 @@ namespace CapaLogica
            cliente.Dnitelef = TELEFONO;
            cliente.Nombrec = NOMBRE;
            cliente.Apellidoc = APELLIDO;
+           cliente.Mail = MAIL;
            cliente.Estado = ESTADO;
            return cliente.EditarCliente(cliente);
     }
     public static DataTable BuscarC(int dni)
     {
         Dcliente cliente = new Dcliente();
-        cliente.BuscarCliente = dni;
+       // cliente.BuscarCliente = dni;
         return cliente.BuscarCliente(cliente);
     }
     //public static string EliminarC(int DNI)
