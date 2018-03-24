@@ -17,7 +17,6 @@ namespace CapaDato
        private string _descripcioncategoria;
        private string _txtbuscar;
 
-      
        public int Idcategoria
        {
            get { return _idcategoria; }
@@ -54,9 +53,7 @@ namespace CapaDato
            this.Nombrecategoria = NOMBRE;
            this.Descripcioncategoria = DESCRIPCION;
            this.Nombrebuscar = BUSACARCATEG;
-                        
        }
-
 
        //*buscar*//
 

@@ -23,10 +23,10 @@ namespace CapaLogica
            cliente.Dnitelef = TELEFONO;
            cliente.Nombrec = NOMBRE;
            cliente.Apellidoc = APELLIDO;
+           cliente.Mail = MAIL;
            cliente.Estado = ESTADO;
            return cliente.InsertarC(cliente);
        }
-    
     public static string EditarC(int DNI,int  DOMICILIO, int TELEFONO, string NOMBRE, string APELLIDO, string MAIL,string ESTADO)
     {
         Dcliente cliente = new Dcliente();

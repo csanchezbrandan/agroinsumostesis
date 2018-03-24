@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaLogica;
+using CapaPresentacion;
 
 namespace CapaPresentacion
 {
@@ -49,7 +50,7 @@ namespace CapaPresentacion
 
         private void btnagregar_Click(object sender, EventArgs e)
         {
-            FrmEditarCliente ingreClin = new FrmEditarCliente(this);
+            FrmIngresarCliente ingreClin = new FrmIngresarCliente();
             ingreClin.ShowDialog();
         }
 

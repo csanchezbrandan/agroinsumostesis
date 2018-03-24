@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaLogica;
 
 namespace CapaPresentacion
 {
@@ -20,8 +21,6 @@ namespace CapaPresentacion
             InitializeComponent();
            
         }
-
-
 
         public void mesajeok(string mensaje)
         {
@@ -119,25 +118,22 @@ namespace CapaPresentacion
                     this.txtiddirec.Text = this.txtdnic.Text;
                     this.txtdnicd.Text = this.txtdnic.Text;
                     this.txtdnict.Text = this.txtdnic.Text;
-                    
+
+                    rsp = Lcliente.InsertarC(Convert.ToInt32(this.txtdnic.Text),Convert.ToInt32(this.txtdnic.Text),Convert.ToInt32(this.txtdnic.Text), this.txtnombre.Text, this.txtapellido.Text, this.txtmailc.Text, this.txtestadoc.Text);
+
                     rsp = Lproveedor_telef.InsertarTP(Convert.ToInt32(this.txtidtelefc.Text), Convert.ToInt32(this.txtPartic.Text), Convert.ToInt32(this.txtCelul.Text),Convert.ToInt32(this.txtfax.Text));
                    
                     rsp = Lproveedor_direcc.InsertarPD(Convert.ToInt32(this.txtiddirec.Text), this.txtcalle.Text, Convert.ToInt32(this.txtNcalle.Text),this.txtProv.Text, this.txtlocalidad.Text, this.txtbarrio.Text, Convert.ToInt32(this.txtcp.Text));
 
-                //    rsp = Lcliente.InsertarC(Convert.ToInt32(this.txtdnic.Text), Convert.ToInt32(this.txtdnicd.Text), Convert.ToInt32(this.txtdnict.Text), this.PLMay(this.txtnombre.Text), this.PLMay(this.txtapellido.Text), this.txtmailc.Text, this.txtestadoc.Text);
+                //   rsp = Lcliente.InsertarC(Convert.ToInt32(this.txtdnic.Text), Convert.ToInt32(this.txtdnicd.Text), Convert.ToInt32(this.txtdnict.Text), this.PLMay(this.txtnombre.Text), this.PLMay(this.txtapellido.Text), this.txtmailc.Text, this.txtestadoc.Text);
                                         
                }
                
-     
                           if (rsp.Equals("Y"))
                                {
                                    this.mesajeok("Se registró con exito");
-
-                                   _ower.mostraC();
-
-                                   //this.Close();
-
-                    
+                                   _owner.mostraC();
+                              
                                }
                             else
                 {
@@ -160,6 +156,8 @@ namespace CapaPresentacion
         {
             this.isnuevo = true;
             botones();
+            this.btncancelar.Enabled = true;
+            
         }
 
         private void FrmIngresarCliente_Load(object sender, EventArgs e)

@@ -57,7 +57,7 @@ namespace CapaPresentacion
             if (mensaje == "Y")
             {
                 this._owner.Mensaje(String.Format("El Cliente {0} ha sido EDITADO", this.txtnombre.Text));
-                this._owner.Refrescar();
+                this._owner.mostraC();
                 this.Close();
             }
             else
