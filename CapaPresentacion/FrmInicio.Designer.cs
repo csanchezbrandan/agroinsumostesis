@@ -66,7 +66,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.851064F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 94.14893F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 81F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1000, 458);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1000, 459);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -95,7 +95,7 @@
             this.tableLayoutPanel2.Controls.Add(this.btnproducto, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnlista, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 379);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 380);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -161,6 +161,7 @@
             this.btncobro.Text = "COBRO";
             this.btncobro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btncobro.UseVisualStyleBackColor = false;
+            this.btncobro.Click += new System.EventHandler(this.btncobro_Click);
             // 
             // btntransport
             // 
@@ -314,14 +315,14 @@
             this.panelContenedor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelContenedor.Location = new System.Drawing.Point(3, 25);
             this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(994, 348);
+            this.panelContenedor.Size = new System.Drawing.Size(994, 349);
             this.panelContenedor.TabIndex = 2;
             // 
             // FrmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1000, 458);
+            this.ClientSize = new System.Drawing.Size(1000, 459);
             this.Controls.Add(this.tableLayoutPanel1);
             this.MainMenuStrip = this.menuStrip1;
             this.MinimumSize = new System.Drawing.Size(1016, 497);

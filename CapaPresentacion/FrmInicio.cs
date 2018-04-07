@@ -27,17 +27,19 @@ namespace CapaPresentacion
         Empleado controlEmpl;
         Proveedor controlProv;
         Transporte controlTrans;
+        Comprobante controlCompro;
    //     Producto _cat;
         public FrmInicio()
         {
             InitializeComponent();
-            controlPedidio = new Pedido();                                                  
+           controlPedidio = new Pedido();                                                  
            controlProducto= new Producto();
            controlCateg= new Categoria();
            controlClient= new Cliente();
            controlEmpl= new Empleado();
            controlProv= new Proveedor();
            controlTrans= new Transporte();
+           controlCompro = new Comprobante();
 
             //this.borrarpanel();
             //Categoria ver = new Categoria();
@@ -239,6 +241,12 @@ namespace CapaPresentacion
             inicio.ShowDialog();
             //new Producto().mostrar();
            
+        }
+
+        private void btncobro_Click(object sender, EventArgs e)
+        {
+            this.panelContenedor.Controls.Clear();
+            this.panelContenedor.Controls.Add(controlCompro);
         }
             // public void borrarpanel()
         

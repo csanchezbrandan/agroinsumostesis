@@ -43,6 +43,7 @@
     <Compile Include="Conexion.cs" />
     <Compile Include="Dcategoria.cs" />
     <Compile Include="Dcliente.cs" />
+    <Compile Include="Dcomprobante.cs" />
     <Compile Include="Dempleado.cs" />
     <Compile Include="Dproducto.cs" />
     <Compile Include="Dproveedor.cs" />
