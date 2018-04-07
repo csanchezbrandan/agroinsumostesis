@@ -496,7 +496,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(805, 366);
+            this.ControlBox = false;
             this.Controls.Add(this.txtfax);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.groupBox3);
@@ -513,7 +516,11 @@
             this.Controls.Add(this.txtiddirec);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.txtidtelefc);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmIngresarCliente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Cliente";
             this.Load += new System.EventHandler(this.FrmIngresarCliente_Load);
             this.tableLayoutPanel3.ResumeLayout(false);
