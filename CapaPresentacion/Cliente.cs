@@ -80,13 +80,9 @@ namespace CapaPresentacion
         }
         public void Mensaje(String mensaje)
         {
-            this.labelMensajes.Text = mensaje;
+           // this.labelMensajes.Text = mensaje;
         }
-        //public void Refrescar()
-        //{
-            
-        //    this.Mostrar();
-        //}
+        
 
     }
 }

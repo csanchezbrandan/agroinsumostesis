@@ -53,6 +53,12 @@
     <Compile Include="Cliente.Designer.cs">
       <DependentUpon>Cliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Comprobante.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Comprobante.Designer.cs">
+      <DependentUpon>Comprobante.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConsultarCaategoria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,12 +77,6 @@
     <Compile Include="Empleado.Designer.cs">
       <DependentUpon>Empleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Comprobante.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <EmbeddedResource Include="Comprobante.Designer.cs">
-      <DependentUpon>Comprobante.cs</DependentUpon>
-    </EmbeddedResource>
     <Compile Include="FrmEditarCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -189,6 +189,9 @@
     <EmbeddedResource Include="Cliente.resx">
       <DependentUpon>Cliente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Comprobante.resx">
+      <DependentUpon>Comprobante.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConsultarCaategoria.resx">
       <DependentUpon>ConsultarCaategoria.cs</DependentUpon>
     </EmbeddedResource>
@@ -197,9 +200,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Empleado.resx">
       <DependentUpon>Empleado.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Comprobante.resx">
-      <DependentUpon>Comprobante.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEditarCategoria.resx">
       <DependentUpon>FrmEditarCategoria.cs</DependentUpon>

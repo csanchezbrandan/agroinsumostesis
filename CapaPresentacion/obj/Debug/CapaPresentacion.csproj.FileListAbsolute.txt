@@ -117,7 +117,6 @@ C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaPresentacion\bin\Debug
 C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaPresentacion\bin\Debug\CapaLogica.pdb
 C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaPresentacion\bin\Debug\CapaDato.pdb
 C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
-C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaPresentacion\obj\Debug\CapaPresentacion.Categoria.resources
 C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaPresentacion\obj\Debug\CapaPresentacion.Cliente.resources
 C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaPresentacion\obj\Debug\CapaPresentacion.ConsultarCaategoria.resources
 C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaPresentacion\obj\Debug\CapaPresentacion.ConsultarProveedor.resources

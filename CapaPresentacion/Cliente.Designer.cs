@@ -274,6 +274,6 @@
         private System.Windows.Forms.Button btnrefre;
         private System.Windows.Forms.Label labeltitulo;
         private System.Windows.Forms.DataGridView dataGridViewCliente;
-        private System.Windows.Forms.Label labelMensajes;
+
     }
 }

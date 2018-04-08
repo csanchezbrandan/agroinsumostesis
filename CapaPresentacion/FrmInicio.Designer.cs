@@ -158,7 +158,7 @@
             this.btncobro.Name = "btncobro";
             this.btncobro.Size = new System.Drawing.Size(87, 73);
             this.btncobro.TabIndex = 7;
-            this.btncobro.Text = "COBRO";
+            this.btncobro.Text = "VENTA";
             this.btncobro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btncobro.UseVisualStyleBackColor = false;
             this.btncobro.Click += new System.EventHandler(this.btncobro_Click);
