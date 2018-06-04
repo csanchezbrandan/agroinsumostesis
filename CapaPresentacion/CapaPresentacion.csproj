@@ -175,6 +175,12 @@
     <Compile Include="Transporte.Designer.cs">
       <DependentUpon>Transporte.cs</DependentUpon>
     </Compile>
+    <Compile Include="venta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="venta.Designer.cs">
+      <DependentUpon>venta.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CapaLogica\CapaLogica.csproj">
@@ -183,6 +189,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="venta.resx">
+      <DependentUpon>venta.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Categoria.resx">
       <DependentUpon>Categoria.cs</DependentUpon>
     </None>

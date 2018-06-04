@@ -27,6 +27,7 @@ namespace CapaPresentacion
         Empleado controlEmpl;
         Proveedor controlProv;
         Transporte controlTrans;
+        venta controlventa;
         //Comprobante controlCompro;
    //     Producto _cat;
         public FrmInicio()
@@ -245,8 +246,12 @@ namespace CapaPresentacion
 
         private void btncobro_Click(object sender, EventArgs e)
         {
+            //this.panelContenedor.Controls.Clear();
+            //this.panelContenedor.Controls.Add(new Comprobante());
+
             this.panelContenedor.Controls.Clear();
-            this.panelContenedor.Controls.Add(new Comprobante());
+            this.panelContenedor.Controls.Add(new venta());
+
         }        
     }
 }

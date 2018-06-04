@@ -139,3 +139,4 @@ C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaPresentacion\obj\Debug
 C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
 C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaPresentacion\obj\Debug\CapaPresentacion.FrmEditarProducto.resources
 C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaPresentacion\obj\Debug\CapaPresentacion.Comprobante.resources
+C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\CapaPresentacion\obj\Debug\CapaPresentacion.venta.resources
