@@ -108,7 +108,6 @@ namespace CapaDato
                 if (sqlcon.State == ConnectionState.Open)
                 {
                     sqlcon.Close();
-
                 }
             }
             return dt;
@@ -198,7 +197,6 @@ namespace CapaDato
                 {
                     rsp = "Error al intentar ejecutar el procedimiento almacenado Produccion.InsertarCliente. " + ex.Message;
                 }
-
 
             }
             finally

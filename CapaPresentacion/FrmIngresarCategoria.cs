@@ -127,7 +127,6 @@ namespace CapaPresentacion
 
             }
 
-
         }
 
         private void btnnuevo_Click(object sender, EventArgs e)
@@ -141,7 +140,5 @@ namespace CapaPresentacion
             this.cajatextoHabilitar(false);
             botones();
         }
-
-       
     }
 }

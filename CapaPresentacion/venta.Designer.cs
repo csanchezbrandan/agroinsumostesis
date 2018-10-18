@@ -139,7 +139,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(89, 21);
+            this.label5.Location = new System.Drawing.Point(60, 27);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(181, 25);
             this.label5.TabIndex = 19;
@@ -148,7 +148,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(47, 27);
+            this.label4.Location = new System.Drawing.Point(18, 33);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(45, 13);
             this.label4.TabIndex = 19;
@@ -162,7 +162,7 @@
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Location = new System.Drawing.Point(618, 184);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(289, 198);
+            this.groupBox3.Size = new System.Drawing.Size(289, 152);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             // 
@@ -170,7 +170,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(143, 152);
+            this.label2.Location = new System.Drawing.Point(143, 119);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 25);
             this.label2.TabIndex = 8;
@@ -186,7 +186,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(83, 161);
+            this.label1.Location = new System.Drawing.Point(83, 128);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 7;
@@ -212,7 +212,7 @@
             this.Column5});
             this.dataGridView1.Location = new System.Drawing.Point(3, 184);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(609, 360);
+            this.dataGridView1.Size = new System.Drawing.Size(609, 299);
             this.dataGridView1.TabIndex = 3;
             // 
             // Column1
@@ -242,7 +242,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(636, 403);
+            this.button1.Location = new System.Drawing.Point(636, 342);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(240, 43);
             this.button1.TabIndex = 4;
@@ -251,7 +251,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(636, 452);
+            this.button2.Location = new System.Drawing.Point(636, 391);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(240, 43);
             this.button2.TabIndex = 5;
@@ -260,7 +260,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(636, 501);
+            this.button3.Location = new System.Drawing.Point(636, 440);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(240, 43);
             this.button3.TabIndex = 6;
@@ -343,7 +343,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
             this.Name = "venta";
-            this.Size = new System.Drawing.Size(917, 568);
+            this.Size = new System.Drawing.Size(917, 506);
             this.Load += new System.EventHandler(this.venta_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmIngresarEmpleado));
             this.label18 = new System.Windows.Forms.Label();
             this.erroricono = new System.Windows.Forms.ErrorProvider(this.components);
             this.btncancelar = new System.Windows.Forms.Button();
@@ -118,6 +119,7 @@
             // 
             // btnuevo
             // 
+            this.btnuevo.Image = ((System.Drawing.Image)(resources.GetObject("btnuevo.Image")));
             this.btnuevo.Location = new System.Drawing.Point(3, 3);
             this.btnuevo.Name = "btnuevo";
             this.btnuevo.Size = new System.Drawing.Size(107, 54);
@@ -543,6 +545,7 @@
             this.Controls.Add(this.txtnombre);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmIngresarEmpleado";
             this.Text = "Registrar Empleado";
             this.Load += new System.EventHandler(this.FrmIngresarEmpleado_Load);
