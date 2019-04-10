@@ -164,8 +164,6 @@ namespace CapaPresentacion
             //Cliente controlClient = new Cliente();
             this.panelContenedor.Controls.Clear();
             this.panelContenedor.Controls.Add(controlClient);
-
-
         }
 
         private void btnemplead_Click(object sender, EventArgs e)
