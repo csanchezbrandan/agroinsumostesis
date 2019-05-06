@@ -51,9 +51,9 @@
             this.label17 = new System.Windows.Forms.Label();
             this.txtdnic = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.btncancelar = new System.Windows.Forms.Button();
             this.btnguardar = new System.Windows.Forms.Button();
             this.btnuevo = new System.Windows.Forms.Button();
+            this.btncancelar = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
             this.txtiddirec = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -297,16 +297,6 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(342, 60);
             this.tableLayoutPanel3.TabIndex = 71;
             // 
-            // btncancelar
-            // 
-            this.btncancelar.Location = new System.Drawing.Point(231, 3);
-            this.btncancelar.Name = "btncancelar";
-            this.btncancelar.Size = new System.Drawing.Size(107, 53);
-            this.btncancelar.TabIndex = 3;
-            this.btncancelar.Text = "CANCELAR";
-            this.btncancelar.UseVisualStyleBackColor = true;
-            this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
-            // 
             // btnguardar
             // 
             this.btnguardar.Location = new System.Drawing.Point(117, 3);
@@ -326,6 +316,16 @@
             this.btnuevo.Text = "NUEVO";
             this.btnuevo.UseVisualStyleBackColor = true;
             this.btnuevo.Click += new System.EventHandler(this.btnuevo_Click);
+            // 
+            // btncancelar
+            // 
+            this.btncancelar.Location = new System.Drawing.Point(231, 3);
+            this.btncancelar.Name = "btncancelar";
+            this.btncancelar.Size = new System.Drawing.Size(107, 53);
+            this.btncancelar.TabIndex = 3;
+            this.btncancelar.Text = "CANCELAR";
+            this.btncancelar.UseVisualStyleBackColor = true;
+            this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
             // 
             // label15
             // 
@@ -507,7 +507,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(900, 570);
             this.ControlBox = false;

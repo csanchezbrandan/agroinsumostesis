@@ -98,10 +98,7 @@ namespace CapaPresentacion
 
         private void btnguardar_Click(object sender, EventArgs e)
         {
-
              string rsp = "";
-
-
             try
             {
 
@@ -119,11 +116,15 @@ namespace CapaPresentacion
                     this.txtdnicd.Text = this.txtdnic.Text;
                     this.txtdnict.Text = this.txtdnic.Text;
 
-                    rsp = Lcliente.InsertarC(Convert.ToInt32(this.txtdnic.Text),Convert.ToInt32(this.txtdnic.Text),Convert.ToInt32(this.txtdnic.Text), this.txtnombre.Text, this.txtapellido.Text, this.txtmailc.Text, this.txtestadoc.Text);
+                    rsp = Lcliente.InsertarC(Convert.ToInt32(this.txtdnic.Text),
+                            Convert.ToInt32(this.txtdnic.Text),
+                            Convert.ToInt32(this.txtdnic.Text), this.txtnombre.Text, 
+                            this.txtapellido.Text, this.txtmailc.Text, this.txtestadoc.Text);
+                    //Convert.ToString(this.dateTimePicker1);
 
-                    rsp = Lproveedor_telef.InsertarTP(Convert.ToInt32(this.txtidtelefc.Text), Convert.ToInt32(this.txtPartic.Text), Convert.ToInt32(this.txtCelul.Text),Convert.ToInt32(this.txtfax.Text));
+                 //   rsp = Lproveedor_telef.InsertarTP(Convert.ToInt32(this.txtidtelefc.Text), Convert.ToInt32(this.txtPartic.Text), Convert.ToInt32(this.txtCelul.Text),Convert.ToInt32(this.txtfax.Text));
                    
-                    rsp = Lproveedor_direcc.InsertarPD(Convert.ToInt32(this.txtiddirec.Text), this.txtcalle.Text, Convert.ToInt32(this.txtNcalle.Text),this.txtProv.Text, this.txtlocalidad.Text, this.txtbarrio.Text, Convert.ToInt32(this.txtcp.Text));
+                 //   rsp = Lproveedor_direcc.InsertarPD(Convert.ToInt32(this.txtiddirec.Text), this.txtcalle.Text, Convert.ToInt32(this.txtNcalle.Text),this.txtProv.Text, this.txtlocalidad.Text, this.txtbarrio.Text, Convert.ToInt32(this.txtcp.Text));
 
                 //   rsp = Lcliente.InsertarC(Convert.ToInt32(this.txtdnic.Text), Convert.ToInt32(this.txtdnicd.Text), Convert.ToInt32(this.txtdnict.Text), this.PLMay(this.txtnombre.Text), this.PLMay(this.txtapellido.Text), this.txtmailc.Text, this.txtestadoc.Text);
                                         
