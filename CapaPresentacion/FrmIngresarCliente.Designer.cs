@@ -43,21 +43,13 @@
             this.txtestadoc = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtmailc = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtdnicd = new System.Windows.Forms.TextBox();
-            this.txtdnict = new System.Windows.Forms.TextBox();
             this.txtapellido = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.txtdnic = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.btncancelar = new System.Windows.Forms.Button();
             this.btnguardar = new System.Windows.Forms.Button();
             this.btnuevo = new System.Windows.Forms.Button();
-            this.label15 = new System.Windows.Forms.Label();
-            this.txtiddirec = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.txtidtelefc = new System.Windows.Forms.TextBox();
+            this.btncancelar = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.txtPartic = new System.Windows.Forms.TextBox();
@@ -91,6 +83,7 @@
             this.txtcp.Name = "txtcp";
             this.txtcp.Size = new System.Drawing.Size(91, 20);
             this.txtcp.TabIndex = 92;
+            this.txtcp.Text = "5000";
             this.txtcp.Visible = false;
             // 
             // txtlocalidad
@@ -195,6 +188,7 @@
             this.txtestadoc.Name = "txtestadoc";
             this.txtestadoc.Size = new System.Drawing.Size(91, 20);
             this.txtestadoc.TabIndex = 81;
+            this.txtestadoc.Text = "si";
             this.txtestadoc.Visible = false;
             // 
             // label5
@@ -215,42 +209,6 @@
             this.txtmailc.Name = "txtmailc";
             this.txtmailc.Size = new System.Drawing.Size(307, 23);
             this.txtmailc.TabIndex = 7;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(733, 355);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 13);
-            this.label4.TabIndex = 78;
-            this.label4.Text = "DNI_PT";
-            this.label4.Visible = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(733, 377);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 13);
-            this.label3.TabIndex = 77;
-            this.label3.Text = "DNI_PD";
-            this.label3.Visible = false;
-            // 
-            // txtdnicd
-            // 
-            this.txtdnicd.Location = new System.Drawing.Point(784, 377);
-            this.txtdnicd.Name = "txtdnicd";
-            this.txtdnicd.Size = new System.Drawing.Size(91, 20);
-            this.txtdnicd.TabIndex = 76;
-            this.txtdnicd.Visible = false;
-            // 
-            // txtdnict
-            // 
-            this.txtdnict.Location = new System.Drawing.Point(784, 351);
-            this.txtdnict.Name = "txtdnict";
-            this.txtdnict.Size = new System.Drawing.Size(91, 20);
-            this.txtdnict.TabIndex = 75;
-            this.txtdnict.Visible = false;
             // 
             // txtapellido
             // 
@@ -297,16 +255,6 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(342, 60);
             this.tableLayoutPanel3.TabIndex = 71;
             // 
-            // btncancelar
-            // 
-            this.btncancelar.Location = new System.Drawing.Point(231, 3);
-            this.btncancelar.Name = "btncancelar";
-            this.btncancelar.Size = new System.Drawing.Size(107, 53);
-            this.btncancelar.TabIndex = 3;
-            this.btncancelar.Text = "CANCELAR";
-            this.btncancelar.UseVisualStyleBackColor = true;
-            this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
-            // 
             // btnguardar
             // 
             this.btnguardar.Location = new System.Drawing.Point(117, 3);
@@ -327,41 +275,15 @@
             this.btnuevo.UseVisualStyleBackColor = true;
             this.btnuevo.Click += new System.EventHandler(this.btnuevo_Click);
             // 
-            // label15
+            // btncancelar
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(722, 407);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(55, 13);
-            this.label15.TabIndex = 70;
-            this.label15.Text = "IdDireccio";
-            this.label15.Visible = false;
-            // 
-            // txtiddirec
-            // 
-            this.txtiddirec.Location = new System.Drawing.Point(784, 403);
-            this.txtiddirec.Name = "txtiddirec";
-            this.txtiddirec.Size = new System.Drawing.Size(91, 20);
-            this.txtiddirec.TabIndex = 69;
-            this.txtiddirec.Visible = false;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(721, 433);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(58, 13);
-            this.label14.TabIndex = 68;
-            this.label14.Text = "IdTelefono";
-            this.label14.Visible = false;
-            // 
-            // txtidtelefc
-            // 
-            this.txtidtelefc.Location = new System.Drawing.Point(784, 429);
-            this.txtidtelefc.Name = "txtidtelefc";
-            this.txtidtelefc.Size = new System.Drawing.Size(90, 20);
-            this.txtidtelefc.TabIndex = 67;
-            this.txtidtelefc.Visible = false;
+            this.btncancelar.Location = new System.Drawing.Point(231, 3);
+            this.btncancelar.Name = "btncancelar";
+            this.btncancelar.Size = new System.Drawing.Size(107, 53);
+            this.btncancelar.TabIndex = 3;
+            this.btncancelar.Text = "CANCELAR";
+            this.btncancelar.UseVisualStyleBackColor = true;
+            this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
             // 
             // label9
             // 
@@ -543,15 +465,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtapellido);
             this.Controls.Add(this.txtcp);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtdnicd);
-            this.Controls.Add(this.txtdnict);
             this.Controls.Add(this.tableLayoutPanel3);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.txtiddirec);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.txtidtelefc);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -585,10 +499,6 @@
         private System.Windows.Forms.TextBox txtestadoc;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtmailc;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtdnicd;
-        private System.Windows.Forms.TextBox txtdnict;
         private System.Windows.Forms.TextBox txtapellido;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox txtdnic;
@@ -596,10 +506,6 @@
         private System.Windows.Forms.Button btncancelar;
         private System.Windows.Forms.Button btnguardar;
         private System.Windows.Forms.Button btnuevo;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox txtiddirec;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox txtidtelefc;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtPartic;

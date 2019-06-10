@@ -37,12 +37,10 @@ namespace CapaPresentacion
         {
 
 
-            this.txtidtelefc.ReadOnly = !valor;
-            this.txtiddirec.ReadOnly = !valor;
+ 
             this.txtnombre.ReadOnly = !valor;
             this.txtdnic.ReadOnly = !valor;
-            this.txtdnicd.ReadOnly = !valor;
-            this.txtdnict.ReadOnly = !valor;
+ 
             this.txtapellido.ReadOnly = !valor;
             this.txtmailc.ReadOnly = !valor;
             this.txtPartic.ReadOnly = !valor;
@@ -51,8 +49,7 @@ namespace CapaPresentacion
             this.txtcalle.ReadOnly = !valor;
             this.txtcp.ReadOnly = !valor;
             this.txtestadoc.ReadOnly = !valor;
-            this.txtiddirec.ReadOnly = !valor;
-            this.txtidtelefc.ReadOnly = !valor;
+         
             this.txtNcalle.ReadOnly = !valor;
             this.txtfax.ReadOnly = !valor;
             this.txtlocalidad.ReadOnly = !valor;
@@ -114,16 +111,16 @@ namespace CapaPresentacion
                 if (this.isnuevo)
 
                 {
-                    this.txtidtelefc.Text = this.txtdnic.Text;
-                    this.txtiddirec.Text = this.txtdnic.Text;
-                    this.txtdnicd.Text = this.txtdnic.Text;
-                    this.txtdnict.Text = this.txtdnic.Text;
+                    //this.txtidtelefc.Text = this.txtdnic.Text;
+                    //this.txtiddirec.Text = this.txtdnic.Text;
+                    //this.txtdnicd.Text = this.txtdnic.Text;
+                    //this.txtdnict.Text = this.txtdnic.Text;
 
                     rsp = Lcliente.InsertarC(Convert.ToInt32(this.txtdnic.Text),Convert.ToInt32(this.txtdnic.Text),Convert.ToInt32(this.txtdnic.Text), this.txtnombre.Text, this.txtapellido.Text, this.txtmailc.Text, this.txtestadoc.Text);
 
-                    rsp = Lproveedor_telef.InsertarTP(Convert.ToInt32(this.txtidtelefc.Text), Convert.ToInt32(this.txtPartic.Text), Convert.ToInt32(this.txtCelul.Text),Convert.ToInt32(this.txtfax.Text));
+                    rsp = Lproveedor_telef.InsertarTP(Convert.ToInt32(this.txtdnic.Text), Convert.ToInt32(this.txtdnic.Text), Convert.ToInt32(this.txtCelul.Text),Convert.ToInt32(this.txtfax.Text));
                    
-                    rsp = Lproveedor_direcc.InsertarPD(Convert.ToInt32(this.txtiddirec.Text), this.txtcalle.Text, Convert.ToInt32(this.txtNcalle.Text),this.txtProv.Text, this.txtlocalidad.Text, this.txtbarrio.Text, Convert.ToInt32(this.txtcp.Text));
+                    rsp = Lproveedor_direcc.InsertarPD(Convert.ToInt32(this.txtdnic.Text), this.txtdnic.Text, Convert.ToInt32(this.txtNcalle.Text),this.txtProv.Text, this.txtlocalidad.Text, this.txtbarrio.Text, Convert.ToInt32(this.txtcp.Text));
 
                 //   rsp = Lcliente.InsertarC(Convert.ToInt32(this.txtdnic.Text), Convert.ToInt32(this.txtdnicd.Text), Convert.ToInt32(this.txtdnict.Text), this.PLMay(this.txtnombre.Text), this.PLMay(this.txtapellido.Text), this.txtmailc.Text, this.txtestadoc.Text);
                                         
