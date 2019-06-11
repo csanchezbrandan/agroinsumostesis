@@ -71,3 +71,17 @@ C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\Tesis\bin\Debug\CapaDato.p
 C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\Tesis\obj\Debug\Tesis.csprojResolveAssemblyReference.cache
 C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\Tesis\obj\Debug\Tesis.Properties.Resources.resources
 C:\Users\CristianSB\Documents\GitHub\agroinsumostesis\Tesis\obj\Debug\Tesis.csproj.GenerateResource.Cache
+C:\Users\Administrador\Documents\GitHub\agroinsumostesis\Tesis\bin\Debug\Tesis.exe.config
+C:\Users\Administrador\Documents\GitHub\agroinsumostesis\Tesis\obj\Debug\Tesis.exe
+C:\Users\Administrador\Documents\GitHub\agroinsumostesis\Tesis\obj\Debug\Tesis.pdb
+C:\Users\Administrador\Documents\GitHub\agroinsumostesis\Tesis\bin\Debug\Tesis.exe
+C:\Users\Administrador\Documents\GitHub\agroinsumostesis\Tesis\bin\Debug\Tesis.pdb
+C:\Users\Administrador\Documents\GitHub\agroinsumostesis\Tesis\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Documents\GitHub\agroinsumostesis\Tesis\bin\Debug\CapaLogica.dll
+C:\Users\Administrador\Documents\GitHub\agroinsumostesis\Tesis\bin\Debug\CapaDato.dll
+C:\Users\Administrador\Documents\GitHub\agroinsumostesis\Tesis\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Documents\GitHub\agroinsumostesis\Tesis\bin\Debug\CapaLogica.pdb
+C:\Users\Administrador\Documents\GitHub\agroinsumostesis\Tesis\bin\Debug\CapaDato.pdb
+C:\Users\Administrador\Documents\GitHub\agroinsumostesis\Tesis\obj\Debug\Tesis.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\GitHub\agroinsumostesis\Tesis\obj\Debug\Tesis.Properties.Resources.resources
+C:\Users\Administrador\Documents\GitHub\agroinsumostesis\Tesis\obj\Debug\Tesis.csproj.GenerateResource.Cache

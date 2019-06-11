@@ -50,6 +50,13 @@
             this.btnguardar = new System.Windows.Forms.Button();
             this.btnuevo = new System.Windows.Forms.Button();
             this.btncancelar = new System.Windows.Forms.Button();
+<<<<<<< HEAD
+=======
+            this.label15 = new System.Windows.Forms.Label();
+            this.txtiddirec = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.txtidtelefc = new System.Windows.Forms.TextBox();
+>>>>>>> f6d37e1d417ef525c5fbc5cf006e7864ba1192b1
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.txtPartic = new System.Windows.Forms.TextBox();
@@ -276,6 +283,47 @@
             this.btnuevo.Click += new System.EventHandler(this.btnuevo_Click);
             // 
             // btncancelar
+<<<<<<< HEAD
+=======
+            // 
+            this.btncancelar.Location = new System.Drawing.Point(231, 3);
+            this.btncancelar.Name = "btncancelar";
+            this.btncancelar.Size = new System.Drawing.Size(107, 53);
+            this.btncancelar.TabIndex = 3;
+            this.btncancelar.Text = "CANCELAR";
+            this.btncancelar.UseVisualStyleBackColor = true;
+            this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(722, 407);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(55, 13);
+            this.label15.TabIndex = 70;
+            this.label15.Text = "IdDireccio";
+            this.label15.Visible = false;
+            // 
+            // txtiddirec
+            // 
+            this.txtiddirec.Location = new System.Drawing.Point(784, 403);
+            this.txtiddirec.Name = "txtiddirec";
+            this.txtiddirec.Size = new System.Drawing.Size(91, 20);
+            this.txtiddirec.TabIndex = 69;
+            this.txtiddirec.Visible = false;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(721, 433);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(58, 13);
+            this.label14.TabIndex = 68;
+            this.label14.Text = "IdTelefono";
+            this.label14.Visible = false;
+            // 
+            // txtidtelefc
+>>>>>>> f6d37e1d417ef525c5fbc5cf006e7864ba1192b1
             // 
             this.btncancelar.Location = new System.Drawing.Point(231, 3);
             this.btncancelar.Name = "btncancelar";
@@ -429,7 +477,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(900, 570);
             this.ControlBox = false;
