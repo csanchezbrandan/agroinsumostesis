@@ -119,15 +119,15 @@ namespace CapaPresentacion
                             this.txtapellido.Text, this.txtmailc.Text, this.txtestadoc.Text);
                     //Convert.ToString(this.dateTimePicker1);
 
-<<<<<<< HEAD
+
                     rsp = Lproveedor_telef.InsertarTP(Convert.ToInt32(this.txtdnic.Text), Convert.ToInt32(this.txtdnic.Text), Convert.ToInt32(this.txtCelul.Text),Convert.ToInt32(this.txtfax.Text));
                    
                     rsp = Lproveedor_direcc.InsertarPD(Convert.ToInt32(this.txtdnic.Text), this.txtdnic.Text, Convert.ToInt32(this.txtNcalle.Text),this.txtProv.Text, this.txtlocalidad.Text, this.txtbarrio.Text, Convert.ToInt32(this.txtcp.Text));
-=======
+
                  //   rsp = Lproveedor_telef.InsertarTP(Convert.ToInt32(this.txtidtelefc.Text), Convert.ToInt32(this.txtPartic.Text), Convert.ToInt32(this.txtCelul.Text),Convert.ToInt32(this.txtfax.Text));
                    
                  //   rsp = Lproveedor_direcc.InsertarPD(Convert.ToInt32(this.txtiddirec.Text), this.txtcalle.Text, Convert.ToInt32(this.txtNcalle.Text),this.txtProv.Text, this.txtlocalidad.Text, this.txtbarrio.Text, Convert.ToInt32(this.txtcp.Text));
->>>>>>> f6d37e1d417ef525c5fbc5cf006e7864ba1192b1
+
 
                 //   rsp = Lcliente.InsertarC(Convert.ToInt32(this.txtdnic.Text), Convert.ToInt32(this.txtdnicd.Text), Convert.ToInt32(this.txtdnict.Text), this.PLMay(this.txtnombre.Text), this.PLMay(this.txtapellido.Text), this.txtmailc.Text, this.txtestadoc.Text);
                                         
